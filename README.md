@@ -144,7 +144,7 @@
 |// 견적서 //			||||
 |📜 견적서 전체 리스트 조회|	/api/quotation/all?page={page}	|`공통`	|`GET`|
 |📜 견적서 매칭별 리스트 조회	|/api/quotation?chatId={chatId}|	`공통`	|`GET`|
-|📜 견적서 등록|	/api/quotation?chatId={chatId}|	`웨딩 플래너`	`POST`|
+|📜 견적서 등록|	/api/quotation?chatId={chatId}|	`웨딩 플래너`|	`POST`|
 |📜 견적서 수정|	/api/quotation/{quotationId}?chatId={chatId}|	`웨딩 플래너`	|`PUT`|
 |📜 견적서 1개 확정	|/api/quotation/confirm/{quotationId}?chatId={chatId}	|`웨딩 플래너`|	`POST`|
 |📜 견적서 삭제|	/api/quotation/{quotationId}	|`웨딩 플래너`|	`DELETE`|
